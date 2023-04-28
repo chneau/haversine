@@ -9,11 +9,6 @@ const (
 	pi180         = math.Pi / 180
 )
 
-var (
-	degLatM = Distance(0, 0, 1, 0)
-	degLonM = Distance(0, 0, 0, 1)
-)
-
 func hsin(theta float64) float64 {
 	return math.Pow(math.Sin(theta/2), 2)
 }
